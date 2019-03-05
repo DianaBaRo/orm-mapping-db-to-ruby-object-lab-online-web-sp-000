@@ -66,6 +66,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = ?
+    ORDER BY students.id
     LIMIT ?
     SQL
 
@@ -79,6 +80,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = ?
+    ORDER BY students.id
     LIMIT ?
     SQL
 
